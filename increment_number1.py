@@ -1,0 +1,10 @@
+f = open("increment_data.txt", "r")
+num =int(f.read())  
+increment = num +5
+print(increment)
+f = open("output.txt", "a")
+f.write(str(increment)+ '\n')
+f.write("Goodbye!\n")
+#f.write("")
+print("File 'output.txt' has been created!")
+f.close()
