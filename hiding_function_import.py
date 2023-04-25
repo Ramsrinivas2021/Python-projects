@@ -1,6 +1,6 @@
-from practice_scopes_hiding_functions1 import *  # importing all the attributes in this file
+# from practice_scopes_hiding_functions1 import *  # importing all the attributes in this file
 # import ractice_scopes_hiding_functions1
-# from ractice_scopes_hiding_functions1 import _add  # using from import
+from practice_scopes_hiding_functions1 import add  # using from import
 sum1 = 50
 total = add()
 # multiplication = mult()
