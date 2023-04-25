@@ -2,7 +2,7 @@
 def _add():
     v1 = 10
     v2 = 20
-    v3 =  v1 + v2
+    v3 = v1 + v2
     print(v3)
     return v3
 def sub():
@@ -13,7 +13,7 @@ def sub():
     return v6
 def mult():
     v7 = 10
-    v8 = 50
+    v8 = 60
     v9 = v7*v8
     print(v9)
     return v9
