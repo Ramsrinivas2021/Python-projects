@@ -4,7 +4,7 @@ class MyClass:
 
 class MySubclass(MyClass):
     def add (self,a,b):
-        super().add(a,b) 
+        super().add() 
         print(a + b)
 subclass_instance = MySubclass()
 subclass_instance .add(12,10)
