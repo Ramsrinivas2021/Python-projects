@@ -7,12 +7,14 @@ from goat_class1 import Goat
 class Cat():
     def make_sound(self,sound):
         print("cat sounds like",sound)
+        
 cat_instance = Cat()
-cat_instance.make_sound("meow meow")
+# cat_instance.make_sound("meow meow")
 
 animal_instance = Animal()
 animal_instance.make_sound("no animal no sound")
 
+cat_instance.make_sound("meow meow")
 dog_instance = Dog()
 dog_instance.make_sound("bow bow")
 
